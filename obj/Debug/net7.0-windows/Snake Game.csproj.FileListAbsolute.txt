@@ -19,3 +19,24 @@ C:\Users\beak7\source\repos\Snake Game\Snake Game\obj\Debug\net7.0-windows\refin
 C:\Users\beak7\source\repos\Snake Game\Snake Game\obj\Debug\net7.0-windows\Snake Game.pdb
 C:\Users\beak7\source\repos\Snake Game\Snake Game\obj\Debug\net7.0-windows\Snake Game.genruntimeconfig.cache
 C:\Users\beak7\source\repos\Snake Game\Snake Game\obj\Debug\net7.0-windows\ref\Snake Game.dll
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.csproj.AssemblyReference.cache
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game_MarkupCompile.cache
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game_MarkupCompile.lref
+C:\Users\beak7\Source\Repos\Snake-Game\bin\Debug\net7.0-windows\Snake Game.exe
+C:\Users\beak7\Source\Repos\Snake-Game\bin\Debug\net7.0-windows\Snake Game.deps.json
+C:\Users\beak7\Source\Repos\Snake-Game\bin\Debug\net7.0-windows\Snake Game.runtimeconfig.json
+C:\Users\beak7\Source\Repos\Snake-Game\bin\Debug\net7.0-windows\Snake Game.dll
+C:\Users\beak7\Source\Repos\Snake-Game\bin\Debug\net7.0-windows\Snake Game.pdb
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.g.resources
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.AssemblyInfoInputs.cache
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.AssemblyInfo.cs
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.csproj.CoreCompileInputs.cache
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.dll
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\refint\Snake Game.dll
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.pdb
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\Snake Game.genruntimeconfig.cache
+C:\Users\beak7\Source\Repos\Snake-Game\obj\Debug\net7.0-windows\ref\Snake Game.dll

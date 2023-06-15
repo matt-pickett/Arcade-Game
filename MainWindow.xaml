@@ -1,14 +1,41 @@
-﻿<Window x:Class="Snake_Game.MainWindow"  
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
-    xmlns:local="clr-namespace:Snake_Game"  
-    mc:Ignorable="d"  
-    Title="Snake Game - Score: 0" SizeToContent="WidthAndHeight" ContentRendered="Window_ContentRendered" KeyUp="Window_KeyUp">
-    <Border BorderBrush="Black" BorderThickness="5">
-        <Canvas Name="GameArea" ClipToBounds="True" Width="400" Height="400">
+﻿<Window x:Class="Pacman_Game.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pacman_Game"
+        mc:Ignorable="d"
+        Title="Snake Game - Score: 0" SizeToContent="WidthAndHeight" ContentRendered="Window_ContentRendered" KeyUp="Window_KeyUp" ResizeMode="NoResize" WindowStyle="None" Background="Black" MouseDown="Window_MouseDown">
+	<DockPanel Background="Black">
+		<Grid DockPanel.Dock="Top" Name="pnlTitleBar">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
 
-        </Canvas>
-    </Border>
+			<Grid.Resources>
+				<Style TargetType="TextBlock">
+					<Setter Property="FontFamily" Value="Consolas" />
+					<Setter Property="Foreground" Value="White" />
+					<Setter Property="FontSize" Value="24" />
+					<Setter Property="FontWeight" Value="Bold" />
+				</Style>
+			</Grid.Resources>
+
+			<WrapPanel Margin="10,0,10,0">
+				<TextBlock>Score:</TextBlock>
+				<TextBlock Name="tbStatusScore">0</TextBlock>
+			</WrapPanel>
+			<WrapPanel Margin="10,0,10,0" Grid.Column="1" HorizontalAlignment="Right">
+				<TextBlock>Lives:</TextBlock>
+				<TextBlock Name="tbStatusLives" HorizontalAlignment="Right">0</TextBlock>
+			</WrapPanel>
+			<Button Grid.Column="2" DockPanel.Dock="Right" Background="Transparent" Foreground="White" FontWeight="Bold" FontSize="20" BorderThickness="0" Name="btnClose" Click="BtnClose_Click" Padding="10,0">X</Button>
+		</Grid>
+		<Border BorderBrush="Black" BorderThickness="5">
+			<Canvas Name="GameArea" ClipToBounds="True" Width="500" Height="300">
+			</Canvas>
+		</Border>
+	</DockPanel>
 </Window>
