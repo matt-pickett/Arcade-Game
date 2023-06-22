@@ -10,6 +10,8 @@ After a certain amount of fruit has been eaten, a large red 'cherry' fruit will 
 
 ![Screenshot of the game](img/Screenshot3.png)
 
-The player has 3 lives. If all 3 lives are lost, the player loses. Press 
+The player has 3 lives. If all 3 lives are lost, the player loses. Press space or click 'OK' to restart.
+
+![Screenshot of the game](img/Screenshot4.png)
 
 Created with .NET Microsoft WPF (Windows Presentation Format).
