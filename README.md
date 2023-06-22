@@ -1,4 +1,5 @@
-A snake game where the goal is to "eat" as many red dots as possible. The snake gets bigger each time it eats. Try not to run the head of the snake into the body!
-The score is kept at the top of the window.
+A game similar to the famous Pacman arcade game where the goal is to get the highest score possible by eating fruit and avoiding ghosts. The player moves with the up, down, left, and right arrows on the keyboard.
+
+![Screenshot of the game](img/Screenshot)
 
 Created with .NET Microsoft WPF (Windows Presentation Format).
